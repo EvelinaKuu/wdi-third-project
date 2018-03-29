@@ -1,0 +1,18 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="destinations">Where will you go?</h1>
+  </div>
+</div>
+
+
+<div class="container">
+  <div ng-repeat="destination in vm.all" class="col-sm-6 col-md-4 col-lg-3 ">
+    <div class="card">
+      <a href="/destinations/{{destination.id}}"><img class="card-img-top" src="{{ destination.image }}" alt="{{ destination.town }}"></a>
+      <div class="card-body">
+        <a href="/destinations/{{destination.id}}"><h5 class="card-title">{{ destination.town }}, {{ destination.country }}</h5></a>
+        <h6>Great For: {{ destination.greatFor }}</h6>
+      </div>
+    </div>
+  </div>
+</div>

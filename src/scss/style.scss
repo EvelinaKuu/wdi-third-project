@@ -1,0 +1,145 @@
+@import "variables";
+@import "navbar";
+@import "destinationshow";
+@import "holidayshow";
+@import "landingpage";
+@import "destinationsindex";
+@import "forms";
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  margin-bottom: 5%;
+}
+
+h1 {
+  font-family: $header-font;
+  color: $primary-color;
+}
+
+h2 {
+  font-family: $header-font;
+  color: $primary-color;
+    text-decoration: none;
+}
+
+h3, h4, h5, h6, p {
+  font-family: $text-font;
+}
+
+h3, p {
+  color: $primary-color;
+}
+
+h4 {
+  color: $primary-color;
+}
+
+h5 {
+  color: $primary-color;
+}
+
+h6 {
+  color: $primary-color;
+}
+
+img {
+  max-width: 100%;
+}
+
+a, button {
+  font-family: $header-font;
+  color: $primary-color;
+  font-weight: light;
+  text-decoration: none;
+  background-color: $background-color;
+  padding: 5px;
+  margin: 3px;
+}
+
+.index-row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.index-container {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -30px;
+}
+
+.index-image {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.place-name {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.google-map {
+  height: 300px;
+  max-width: 900px;
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+footer {
+  p, a {
+    font-size: 12px;
+    text-align: center;
+    font-family: $text-font;
+  }
+  // margin-top: -50px;
+  // padding-top: -100px;
+  max-height: 5px;
+  max-width: auto;
+}
+
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+
+.burger {
+  background-color: $primary-color;
+  &:hover {
+  }
+}
+
+.burger-background {
+  &:hover {
+    background-color: #FFF;
+
+  }
+}
+
+// DELETE BUTTON ON HOLIDAY EDIT
+button {
+  &.delete-holiday {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid red;
+    font-family: $header-font;
+    font-size: 16px;
+    color: red;
+    margin-top: 20px;
+    width: 100px;
+
+    &:hover {
+      background-color: red;
+      color: rgb(255, 255, 255);
+    }
+  }
+}

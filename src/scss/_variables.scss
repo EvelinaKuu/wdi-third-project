@@ -1,0 +1,17 @@
+$header-font:  'Heebo', sans-serif;
+$text-font: 'Roboto', sans-serif;
+
+// text-color to be used in texts (maybe not headers?), also forms when/if background is "snow"
+$primary-color: #092E58;
+
+// if we need to use a darker color lets say for headers if the text-coloru is not dark enough to be used on headers this is the color of the mountains
+$secondary-color:  #1D1B1C;
+
+// primary color is to be used in all form backgrounds
+$background-color: white;
+
+$image: url("../images/gondola.jpg");
+
+
+// can we have a lighter text color for contrast - maybe a grey?
+$grey: #d3d3d3;

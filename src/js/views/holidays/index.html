@@ -1,0 +1,21 @@
+
+<div class="landing-page-image">
+
+  <div class="container">
+
+    <div class="landing-page-login">
+
+      <h1 class="appres-row">Find your holiday</h1>
+
+      <input
+      type="text"
+      ng-model="vm.selectedHoliday"
+      uib-typeahead="holiday as holiday.holidayName for holiday in vm.all | filter:{ holidayName: $viewValue }"
+      class="form-control"
+      typeahead-on-select="vm.pickHoliday()"
+      placeholder="Type to search your friends' holidays">
+
+    </div>
+    <flash-message></flash-message>
+  </div>
+</div>

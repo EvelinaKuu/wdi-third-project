@@ -1,0 +1,94 @@
+<div class="background-image">
+  <div class="container edit-profile">
+    <div class="row form-box">
+      <div class="col-md-10 col-lg-12">
+        <div class="form">
+          <div class="row text-center">
+            <h2 class="text-center">Edit Holiday</h2>
+            <flash-message></flash-message>
+          </div>
+          <form ng-submit="vm.update()">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-5 col-md-9 col-sm-10 col-xs-11">
+                  <div class="form-group">
+                    <label for="holidayName">Holiday Name</label>
+                    <input class="form-control" type="text" name="holidayName" placeholder="{{ vm.holiday.holidayName }}" id="holidayName" ng-model="vm.holiday.holidayName" required>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 col-md-9 col-sm-10 col-xs-11">
+                  <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <input
+                    ng-model="vm.holiday.destination"
+                    type="text"
+                    ng-model="vm.selectedDestination"
+                    uib-typeahead="destination as destination.town for destination in vm.destinations | filter:{ town: $viewValue }"
+                    class="form-control"
+                    typeahead-on-select="vm.pickDestination()"
+                    placeholder="Type to pick a destination">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-5 col-md-9 col-sm-10 col-xs-11">
+                  <div class="form-group">
+                    <label for="dateArrive">Arrival Date</label>
+                    <input class="form-control" type="date" name="dateArrive" placeholder="{{ vm.holiday.dateArrive }}" id="dateArrive" ng-model="vm.holiday.dateArrive" required format-date>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 col-md-9 col-sm-10 col-xs-11">
+                  <div class="form-group">
+                    <label for="dateDepart">Departure Date</label>
+                    <input class="form-control" type="date" name="dateDepart" placeholder="{{ vm.holiday.dateDepart }}" id="dateDepart" ng-model="vm.holiday.dateDepart" required format-date>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-5 col-md-9 col-sm-10 col-xs-11">
+                  <div class="form-group">
+                    <label for="attendee">Attendees</label>
+                    <input
+                    type="text"
+                    ng-model="vm.selectedUser"
+                    uib-typeahead="user as user.username for user in vm.users | filter:{ username: $viewValue }"
+                    class="form-control"
+                    typeahead-on-select="vm.pickAttendee()"
+                    placeholder="Type to pick an attendee">
+                  </div>
+                </div>
+
+                <div class="col-lg-5 col-md-9 col-sm-10 col-xs-11">
+                  <div class="form-group">
+                    <label for="attendees">Attendees</label>
+                    <li ng-repeat="attendee in vm.holiday.attendees">
+                      <p><strong>{{ attendee.username }}</strong></p>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-lg-3 col-md-offset-1">
+                  <button class="landing-buttons">Save</button>
+                </div>
+                <div class="col-lg-3">
+                  <button class="landing-buttons" ui-sref="destinationsIndex">Cancel</button>
+                </div>
+                <div class="col-lg-3">
+                  <form ng-submit="vm.delete()">
+                    <button class="delete-holiday">Delete</button>
+                  </form>
+                </div>
+              </form>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
