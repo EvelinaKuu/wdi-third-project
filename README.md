@@ -2,18 +2,42 @@
 
 MEAN Stack app planned and built in a week by Patrick Kelly, Charlotte Davies and Evelina Kuusinen.
 
+## Project Brief
+
+Your app must:
+
+* **Use Mongo, Express and Node** to build an API and a **Angular front-end app** that consumes it
+* **Create an API using at least 2 related models**, one of which should be a user
+* Include **all major CRUD functions** in a **RESTful API** for at least one of those model
+* **API** must include tests for the authentication and resful routes
+* **Consume your own API** by making your front-end app with **Angular** using some 3rd party dependencies such as **ui.router** and **ng-resource**
+* **Add authentication to your API** to restrict access to appropriate users
+* **Craft thoughtful user stories together**, as a team
+* **Manage team contributions and collaboration** using a standard Git flow on Github
+* Layout and style your front-end with **clean & well-formatted CSS**
+* **Deploy your application online** so it's publically accessible
+
+
+
 ## Description
 
 An app to plan ski holidays focusing particular on After Ski activities
 
-On our app you can:
-- Browse popular European ski destinations
-- Create a forum to:
-    - Discuss and plan your holiday with your friends
-    - Discuss après opportunities at your resort
-    - Get to know your travel companions
+On our app you can
 
-<img width=“1440” alt=“screen shot 2018-03-15 at 09 14 39" src=“https://user-images.githubusercontent.com/13580512/37454021-5ac34022-2831-11e8-8840-13c198fb007c.png”>
+- Browse popular European ski destinations
+
+- Create a forum to:
+
+	- Discuss and plan your holiday with your friends
+	
+	- Discuss après opportunities at your resort
+	
+	- Get to know your travel companions
+
+<img width="1431" alt="screen shot 2018-04-02 at 14 47 53" src="https://user-images.githubusercontent.com/33250285/38198471-e54110ba-3684-11e8-8b9c-63bf2cf77746.png">
+
+
 
 ## The Process
 We started by brainstorming ideas and chose to build a ski and snowboard holiday planning app. We drew our initial wireframes collaboratively on the whiteboard.
@@ -24,12 +48,15 @@ We started by brainstorming ideas and chose to build a ski and snowboard holiday
 - We each took an element of styling, background image, font, colour scheme
 - We set these up in variables and set up a basic style sheet for headings, paragraphs, buttons and anchor tags
 
+![img_1055](https://user-images.githubusercontent.com/33250285/38198679-b1ce0142-3685-11e8-874e-2bf34b42557e.jpg)
 
-<img width=“1440" src=“https://user-images.githubusercontent.com/13580512/37453738-8bacc88a-2830-11e8-9b6c-793383dd465f.png”>
 
-<img width=“1440” alt=“screen shot on trello day 1 part 1" src=“https://user-images.githubusercontent.com/13580512/37453871-f51fbe4e-2830-11e8-846e-854e0ec0599f.png“>
 
-For planning we used a Trello board which we continued using throughout the process, dividing tasks and informing each other about the process. We wanted to ensure that we didn’t miss anything and all aspects of our project would be covered by someone. Our detailed planning really helped us to prioritise MVP, communicate on what was going on and avoid conflicts on git - it really helped that we had 3 models and 3 people. We had standups every morning and after lunch and we also used Slack to keep each other updated during the weekend and overnight.
+For planning we used a Trello board which we continued using throughout the process, dividing tasks and informing each other about the process. We wanted to ensure that we didn’t miss anything and all aspects of our project would be covered by someone. Our detailed planning really helped us to prioritise MVP, communicate on what was going on and avoid conflicts on git, - it really helped that we had 3 models and 3 people. We had standups every morning and after lunch and we also used Slack to keep each other updated during the weekend and overnight.
+
+
+<img width="1440" alt="screen shot on trello day 1 part 1 1" src="https://user-images.githubusercontent.com/33250285/38198730-dcec66d4-3685-11e8-9ac7-f618be87e993.png">
+
 
 Our goal was to divide the back and front end coding so that every team member would have the chance of practicing on both. All three of us wrote tests and did styling as well. In three days we hit MVP.
 
@@ -71,6 +98,7 @@ Our team worked well because we put a lot of effort into communicating and we ha
 * Morgan
 * Trello
 * Heroku
+* Slack
 
 
 ## Wins and Blockers
@@ -107,6 +135,11 @@ Our team worked well because we put a lot of effort into communicating and we ha
 ####Evelina’s Blockers:
 1. It was the first time styling code that others have written. Creating the layout was a bit harder this way, compared if you've written it yourself and would be familiar with the code.
 2. Testing was new for me and I the learning curve was quite steep.
+
+
+![img_8091](https://user-images.githubusercontent.com/33250285/38199199-cd0cfdb2-3687-11e8-9417-436ef52eedf5.JPG)
+
+
 
 ## Future Functionality
 
