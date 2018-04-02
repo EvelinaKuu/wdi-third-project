@@ -137,6 +137,9 @@ Our team worked well because we put a lot of effort into communicating and we ha
 2. Testing was new for me and I the learning curve was quite steep.
 
 
+
+#### The team working together
+
 ![img_8091](https://user-images.githubusercontent.com/33250285/38199199-cd0cfdb2-3687-11e8-9417-436ef52eedf5.JPG)
 
 
