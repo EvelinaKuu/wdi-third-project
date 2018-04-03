@@ -1,3 +1,7 @@
+![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
+
+
+
 # WDI-GROUP-PROJECT
 
 MEAN Stack app planned and built in a week by Patrick Kelly, Charlotte Davies and Evelina Kuusinen.
@@ -30,9 +34,9 @@ On our app you can
 - Create a forum to:
 
 	- Discuss and plan your holiday with your friends
-	
+
 	- Discuss après opportunities at your resort
-	
+
 	- Get to know your travel companions
 
 <img width="1431" alt="screen shot 2018-04-02 at 14 47 53" src="https://user-images.githubusercontent.com/33250285/38198471-e54110ba-3684-11e8-8b9c-63bf2cf77746.png">
@@ -78,7 +82,7 @@ Our team worked well because we put a lot of effort into communicating and we ha
 * Chai
 * NYC
 
-###Dependencies and other tools:
+## Dependencies and other tools:
 * Babel
 * Bcrypt
 * Bluebird
